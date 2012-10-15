@@ -1,0 +1,12 @@
+<snippet>
+  <content>
+    <![CDATA[
+// @import "compass/css3/filter"
+// http://compass-style.org/reference/compass/css3/filter/
+@include filter(${1:blur||brightness||contrast||grayscale||hue-rotate||invert||opacity||saturate||sepia}(${2:int}%)}${3:, mult_args});
+    ]]>
+  </content>
+  <tabTrigger>mix</tabTrigger>
+  <scope>source.sass</scope>
+  <description>filter</description>
+</snippet>

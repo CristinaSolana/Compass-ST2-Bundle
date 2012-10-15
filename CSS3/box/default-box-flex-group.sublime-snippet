@@ -1,0 +1,13 @@
+<snippet>
+  <content>
+    <![CDATA[
+// @import "compass/css3/box"
+// http://compass-style.org/reference/compass/css3/box/
+\$default-box-flex-group: ${1:int};
+$0
+    ]]>
+  </content>
+  <tabTrigger>var</tabTrigger>
+  <scope>source.sass</scope>
+  <description>default-box-flex-group</description>
+</snippet>

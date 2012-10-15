@@ -1,0 +1,13 @@
+<snippet>
+  <content>
+    <![CDATA[
+// @import "compass/css3/box-shadow"
+// http://compass-style.org/reference/compass/css3/box_shadow/
+@include box-shadow(rgba(${3:\$color}, ${4:int}) ${5:int+unit} ${6:int+unit} ${7:int+unit} ${8:int+unit} ${9:inset}${1:, rgba(${10:\$color}, ${11:int}) ${12:int+unit} ${13:int+unit} ${14:int+unit} ${15:int+unit} ${16:inset}}${2:, mult_args});
+$0
+    ]]>
+  </content>
+  <tabTrigger>mix</tabTrigger>
+  <scope>source.sass</scope>
+  <description>box-shadow</description>
+</snippet>

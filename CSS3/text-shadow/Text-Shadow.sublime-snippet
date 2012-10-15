@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+    <![CDATA[
+// http://compass-style.org/reference/compass/css3/appearance/
+appearance(${1:\$ap})
+    ]]>
+  </content>
+  <tabTrigger>test</tabTrigger>
+  <scope>source.sass</scope>
+  <description>mixin: Appearance</description>
+</snippet>

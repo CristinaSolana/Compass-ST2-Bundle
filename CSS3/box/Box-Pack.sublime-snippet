@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+    <![CDATA[
+// @import "compass/css3/box"
+// http://compass-style.org/reference/compass/css3/box/
+@include display-box;
+@include box-pack(${1:start }${2:end }${3:center }${4:justify});
+$0
+    ]]>
+  </content>
+  <tabTrigger>mix</tabTrigger>
+  <scope>source.sass</scope>
+  <description>box-pack</description>
+</snippet>
