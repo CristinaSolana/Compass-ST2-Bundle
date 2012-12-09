@@ -5,7 +5,7 @@
 // http://compass-style.org/reference/compass/css3/background_clip/
 @include background-clip(${1:padding-box}${2:border-box}${3:text});
 $0
-    ]]>
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>

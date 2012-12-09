@@ -6,7 +6,7 @@
 @include display-box;
 @include box-lines(${1:single }${2:multiple});
 $0
-    ]]>
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>

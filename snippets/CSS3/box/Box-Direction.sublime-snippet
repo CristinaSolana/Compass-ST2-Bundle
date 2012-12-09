@@ -6,7 +6,7 @@
 @include display-box;
 @include box-direction(${1:normal }${2:reverse }${3:inherit});
 $0
-    ]]>
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>

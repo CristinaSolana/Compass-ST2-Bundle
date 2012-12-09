@@ -5,7 +5,7 @@
 // http://compass-style.org/reference/compass/css3/background_size/
 @include background-size(${1:auto }${2:contain }${3:cover }${4:${5:int+unit} ${6:int+unit}});
 $0
-    ]]>
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>

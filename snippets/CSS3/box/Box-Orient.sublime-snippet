@@ -6,7 +6,7 @@
 @include display-box;
 @include box-orient(${1:horizontal }${2:vertical }${3:inline-axis }${4:block-axis }${5:inherit});
 $0
-    ]]>
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>
