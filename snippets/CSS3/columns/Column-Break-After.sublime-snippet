@@ -5,7 +5,7 @@
 // http://compass-style.org/reference/compass/css3/columns/
 @include column-break-after(${1:auto|always|avoid|left|right|page|column|avoid-page|avoid-column});
 $0
-    ]]>
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>
