@@ -3,11 +3,11 @@
     <![CDATA[
 // @import @import "compass/css3/inline-block"
 // http://compass-style.org/reference/compass/css3/inline_block/
-@include inline-block(${1:alignment});
+\$inline-block-alignment: ${1:none|false|top|bottom|baseline|middle};
 $0
 ]]>
   </content>
-  <tabTrigger>mix</tabTrigger>
+  <tabTrigger>var</tabTrigger>
   <scope>source.sass</scope>
-  <description>inline-block</description>
+  <description>inline-block-alignment</description>
 </snippet>

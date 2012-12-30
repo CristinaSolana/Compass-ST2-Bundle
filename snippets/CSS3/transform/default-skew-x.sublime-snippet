@@ -1,0 +1,13 @@
+<snippet>
+  <content>
+    <![CDATA[
+// @import "compass/css3/transform"
+// http://compass-style.org/reference/compass/css3/transform/
+\$default-skew-x: ${1:value}deg;
+$0
+]]>
+  </content>
+  <tabTrigger>var</tabTrigger>
+  <scope>source.sass</scope>
+  <description>default-skew-x</description>
+</snippet>

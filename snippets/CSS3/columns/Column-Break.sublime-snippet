@@ -3,7 +3,8 @@
     <![CDATA[
 // @import "compass/css3/columns" 
 // http://compass-style.org/reference/compass/css3/columns/
-@include columns(${1:width } ${2:count});
+// for $type = inside, only legal values are auto, avoid, avoid-page, avoid-column
+@include columns(${1:auto|always|avoid|left|right|page|column|avoid-page|avoid-column});
 $0
 ]]>
   </content>

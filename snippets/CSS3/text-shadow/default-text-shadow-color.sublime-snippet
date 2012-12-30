@@ -1,13 +1,13 @@
 <snippet>
   <content>
     <![CDATA[
-// @import 
+// @import "compass/css3/text-shadow" 
 // http://compass-style.org/reference/compass/
-\$default-: ${1:- }${2:- }${3:- }${2:- }${3:-};
+\$default-text-shadow-color: ${1:color};
 $0
-    ]]>
+]]>
   </content>
   <tabTrigger>var</tabTrigger>
   <scope>source.sass</scope>
-  <description>default-</description>
+  <description>default-text-shadow-</description>
 </snippet>

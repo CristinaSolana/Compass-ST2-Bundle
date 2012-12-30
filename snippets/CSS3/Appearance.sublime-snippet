@@ -4,7 +4,8 @@
 // @import "compass/css3/appearance"
 // http://compass-style.org/reference/compass/css3/appearance/
 @include appearance(${1:\$ap});
-    ]]>
+$0
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>

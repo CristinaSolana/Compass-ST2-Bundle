@@ -4,11 +4,11 @@
 // @import 
 // http://compass-style.org/reference/compass/
 // Takes a number between 0 and 1 as the argument, e.g. 0.5 for 50% opacity
-@include opacity(${1:value});
+@include transparent;
 $0
 ]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>
-  <description>opacity</description>
+  <description>transparent</description>
 </snippet>

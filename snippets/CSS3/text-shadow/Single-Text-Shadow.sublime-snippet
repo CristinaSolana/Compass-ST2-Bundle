@@ -3,11 +3,11 @@
     <![CDATA[
 // @import "compass/css3/text-shadow"
 // http://compass-style.org/reference/compass/css3/text-shadow/
-text-shadow(${1:shadow-1|shadow-2|shadow-3|shadow-4|shadow-5|shadow-6|shadow-7|shadow-8|shadow-9|shadow-10})
+single-text-shadow(\$hoff, \$voff, \$blur, \$spread, \$color);
 $0
 ]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>
-  <description>text-shadow</description>
+  <description>single-text-shadow</description>
 </snippet>

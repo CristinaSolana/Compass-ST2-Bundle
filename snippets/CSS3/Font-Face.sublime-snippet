@@ -4,7 +4,8 @@
 // @import "compass/css3/font-face"
 // http://compass-style.org/reference/compass/css3/font_face/
 @include font-face("${1:name}", font-files(${2:rel/path/to}.ttf, ${3:rel/path/to}.woff, ${4:rel/path/to}.svg), ${5:rel/path/to}.eof, ${6:bold||<del>}, ${7:italic||<del>});
-    ]]>
+$0
+]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>
