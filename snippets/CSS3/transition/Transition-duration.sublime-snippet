@@ -3,11 +3,11 @@
     <![CDATA[
 // @import 
 // http://compass-style.org/reference/compass/
-@include transition(${1:transition}); ${2:// for multiple, use a comma-delimited list}
+@include transition-duration(${1:duration-in-seconds}); ${2:// for multiple, use a comma-delimited list}
 $0
 ]]>
   </content>
   <tabTrigger>mix</tabTrigger>
   <scope>source.sass</scope>
-  <description>transition</description>
+  <description>transition-duration</description>
 </snippet>
