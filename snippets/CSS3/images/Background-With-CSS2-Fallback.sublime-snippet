@@ -3,7 +3,7 @@
     <![CDATA[
 // @import "compass/css3/images"
 // http://compass-style.org/reference/compass/css3/images/
-@include background-with-css2-fallback(${1:background-1}, ${2:background-2}, ${3:background-3}, ${4:background-4}, ${5:background-5}, ${6:background-6}, ${7:background-7}, ${8:background-8}, ${9:background-9}, ${10:background-10});
+@include background-with-css2-fallback(${1:background}); ${5:// for multiple, use a comma-delimited list}
 $0
 ]]>
   </content>

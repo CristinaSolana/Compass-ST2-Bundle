@@ -3,7 +3,7 @@
     <![CDATA[
 // @import "compass/css3/background-size"
 // http://compass-style.org/reference/compass/css3/background_size/
-@include background-size(${1:auto }${2:contain }${3:cover }${4:${5:int+unit} ${6:int+unit}});
+@include background-size(${1:auto|contain|cover|integer+unit}); ${2:// for multiple, use a comma-delimited list}
 $0
 ]]>
   </content>

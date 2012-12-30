@@ -3,8 +3,7 @@
     <![CDATA[
 // @import "compass/css3/box"
 // http://compass-style.org/reference/compass/css3/box/
-@include display-box;
-@include box-ordinal-group(${1:int});
+@include box-ordinal-group(${1:integer});
 $0
 ]]>
   </content>

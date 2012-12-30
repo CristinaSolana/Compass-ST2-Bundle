@@ -3,7 +3,7 @@
     <![CDATA[
 // @import "compass/css3/box-shadow"
 // http://compass-style.org/reference/compass/css3/box_shadow/
-@include single-box-shadow(${1:\$color}, ${2:\$h-offset:int+unit}, ${3:\$v-offset:int+unit}, ${4:\$blur:int+unit}, ${5:\$spread:booleen}, ${6:\$inset:booleen});
+@include single-box-shadow(${1:color}, ${2:h-offset:integer+unit}, ${3:v-offset:integer+unit}, ${4:blur:integer+unit}, ${5:spread:true|false}, ${6:inset:true|false});
 $0
 ]]>
   </content>
