@@ -1,13 +1,11 @@
 <snippet>
   <content>
     <![CDATA[
-// @import @import "compass/css3/inline-block"
-// http://compass-style.org/reference/compass/css3/inline_block/
 @include inline-block(${1:alignment});
 $0
 ]]>
   </content>
-  <tabTrigger>mix</tabTrigger>
+  <tabTrigger>inline-block</tabTrigger>
   <scope>source.sass</scope>
   <description>inline-block</description>
 </snippet>

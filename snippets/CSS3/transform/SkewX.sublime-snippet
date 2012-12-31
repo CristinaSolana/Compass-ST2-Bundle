@@ -1,13 +1,11 @@
 <snippet>
   <content>
     <![CDATA[
-// @import 
-// http://compass-style.org/reference/compass/
-@include mixin-name(${1:-}, ${2:-}, ${3:-}, ${4:-}, ${5:-}, ${6:-});
+@include skewX(${1:unitless}deg, ${3:3D-only:true||false});
 $0
 ]]>
   </content>
-  <tabTrigger>mix</tabTrigger>
+  <tabTrigger>transform</tabTrigger>
   <scope>source.sass</scope>
-  <description>mixin name</description>
+  <description>skewX</description>
 </snippet>

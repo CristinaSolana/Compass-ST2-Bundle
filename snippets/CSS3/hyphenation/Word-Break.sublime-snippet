@@ -1,13 +1,11 @@
 <snippet>
   <content>
     <![CDATA[
-// @import "compass/css3/hyphenation"
-// http://compass-style.org/reference/compass/css3/hyphenation/
-@include word-break(${1:normal|keep-all|break-all});
+@include word-break(${1:normal||keep-all||break-all});
 $0
 ]]>
   </content>
-  <tabTrigger>mix</tabTrigger>
+  <tabTrigger>word-break</tabTrigger>
   <scope>source.sass</scope>
   <description>word-break</description>
 </snippet>

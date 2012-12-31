@@ -1,13 +1,11 @@
 <snippet>
   <content>
     <![CDATA[
-// @import "compass/css3/background-size"
-// http://compass-style.org/reference/compass/css3/background_size/
-@include background-size(${1:auto|contain|cover|integer+unit}); ${2:// for multiple, use a comma-delimited list}
+@include background-size(${1:auto||contain||cover||unit}); ${2:// multiple: comma-delimited}
 $0
 ]]>
   </content>
-  <tabTrigger>mix</tabTrigger>
+  <tabTrigger>background</tabTrigger>
   <scope>source.sass</scope>
   <description>background-size</description>
 </snippet>

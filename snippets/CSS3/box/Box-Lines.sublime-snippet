@@ -1,13 +1,11 @@
 <snippet>
   <content>
     <![CDATA[
-// @import "compass/css3/box"
-// http://compass-style.org/reference/compass/css3/box/
-@include box-lines(${1:single|multiple});
+@include box-lines(${1:single||multiple});
 $0
 ]]>
   </content>
-  <tabTrigger>mix</tabTrigger>
+  <tabTrigger>box</tabTrigger>
   <scope>source.sass</scope>
   <description>box-lines</description>
 </snippet>

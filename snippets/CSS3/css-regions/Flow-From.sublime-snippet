@@ -1,13 +1,11 @@
 <snippet>
   <content>
     <![CDATA[
-// @import "compass/css3/regions" 
-// http://compass-style.org/reference/compass/css3/regions/
 @include flow-from(${1:target});
 $0
 ]]>
   </content>
-  <tabTrigger>mix</tabTrigger>
+  <tabTrigger>cssregions</tabTrigger>
   <scope>source.sass</scope>
   <description>css-regions-flow-from</description>
 </snippet>
