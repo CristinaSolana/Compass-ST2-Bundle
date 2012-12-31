@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include box-align(${1:start||end||center||baseline||stretch});
-$0
+@include box-align(${1:start||end||center||baseline||stretch});$0
 ]]>
   </content>
   <tabTrigger>box</tabTrigger>

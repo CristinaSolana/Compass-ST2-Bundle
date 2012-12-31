@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include box-direction(${1:normal||reverse||inherit});
-$0
+@include box-direction(${1:normal||reverse||inherit});$0
 ]]>
   </content>
   <tabTrigger>box</tabTrigger>

@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include rotate(${1:unitless}deg, ${2:perspective:true||false}, ${3:3D-only:true||false});
-$0
+@include rotate(${1:unitless}deg, ${2:perspective:true||false}, ${3:3D-only:true||false});$0
 ]]>
   </content>
   <tabTrigger>transform</tabTrigger>

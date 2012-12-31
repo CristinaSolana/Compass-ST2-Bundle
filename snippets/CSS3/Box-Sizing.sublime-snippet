@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include box-sizing(${1:border-box||content-box});
-$0
+@include box-sizing(${1:border-box||content-box});$0
 ]]>
   </content>
   <tabTrigger>box-sizing</tabTrigger>

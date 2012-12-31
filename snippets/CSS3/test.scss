@@ -35,13 +35,13 @@
 @include column-break-inside(auto||avoid||avoid-page||avoid-column);
 @include column-break(type:before||after||inside, value:auto||always||avoid||left||right||page||column||avoid-page||avoid-column); // for type => inside, only legal values are: auto||avoid||avoid-page||avoid-column
 @include column-count(count);
-@include column-gap(width);
+@include column-gap(unit);
 @include column-rule-color(color);
 @include column-rule-style(solid||dashed||dotted);
-@include column-rule-width(width);
-@include column-rule(width style color);
-@include column-width(width);
-@include columns(width count);
+@include column-rule(width:unit style:solid||dashed||dotted color);
+@include column-width(unit);
+@include column-rule-width(unit);
+
 
 @include flow-from(target);
 @include flow-into(target);
@@ -54,7 +54,7 @@
 @include background(url()||gradient-declaration); // multiple: comma-delimited
 @include border-image(value);
 @include content("value");
-@include filter-gradient(start-color, end-color, vertical|horizontal);
+@include filter-gradient(start-color, end-color, vertical||horizontal);
 @include list-style-image(image);
 @include list-style(value);
 
@@ -88,7 +88,7 @@ single-text-shadow(h-offset:unit, v-offset:unit, blur:unit, spread:unit, color);
 @include scaleY(unitless, perspective:true||false, 3D-only:true||false);
 @include transform(transforms, 3D-only:true||false);
 @include transform-style(flat|preserve-3d);
-@include transform-origin(x:unit|left|top|right|bottom|center, y:unit|left|top|right|bottom|center, z:unit|left|top|right|bottom|center, 3D-only);
+@include transform-origin(x:unit||left||top||right||bottom||center, y:unit||left||top||right||bottom||center, z:unit||left||top||right||bottom||center, 3D-only:true||false);
 @include skewY(unitlessdeg, 3D-only:true||false);
 @include skewX(unitlessdeg, 3D-only:true||false);
 @include skew(x:unitlessdeg, y:unitlessdeg, 3D-only:true||false);

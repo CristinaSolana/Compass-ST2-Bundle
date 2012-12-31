@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include transform(${1:transforms}, ${2:3D-only:true||false});
-$0
+@include transform(${1:transforms}, ${2:3D-only:true||false});$0
 ]]>
   </content>
   <tabTrigger>transform</tabTrigger>

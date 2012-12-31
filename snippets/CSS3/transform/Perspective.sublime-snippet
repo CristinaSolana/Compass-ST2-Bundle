@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include perspective(${1:unitless});
-$0
+@include perspective(${1:unitless});$0
 ]]>
   </content>
   <tabTrigger>transform</tabTrigger>

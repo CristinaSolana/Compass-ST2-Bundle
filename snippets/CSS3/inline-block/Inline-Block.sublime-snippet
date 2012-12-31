@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include inline-block(${1:alignment});
-$0
+@include inline-block(${1:alignment});$0
 ]]>
   </content>
   <tabTrigger>inline-block</tabTrigger>

@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include list-style(${1:value});
-$0
+@include list-style(${1:value});$0
 ]]>
   </content>
   <tabTrigger>images</tabTrigger>

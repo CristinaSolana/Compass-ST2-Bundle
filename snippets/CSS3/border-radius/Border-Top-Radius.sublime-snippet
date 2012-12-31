@@ -1,8 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include border-top-radius(${1:unitless}px);
-$0
+@include border-top-radius(${1:unitless}px);$0
 ]]>
   </content>
   <tabTrigger>border</tabTrigger>
