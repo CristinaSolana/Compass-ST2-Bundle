@@ -2,40 +2,34 @@
 
 ##### What is it?
 
-*Once finished, will include snippets for All Compass Core variables, mixins and functions + tab indexing for mixin and function parameters. Also, adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-SASS-Package or similar SASS Package needed. *Soon to be standalone*).
+*Once finished, will include snippets for All Compass Core variables, mixins with tab indexing for parameters. Currently all of the CSS3 library is finished.
+
+Also, adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-SASS-Package or similar SASS Package needed. *Soon to be standalone*).
 
 **This is still a work in progress. Thanks in advance for any input.**
 
-### Install
+---
 
-##### Prerequisites
+## Install
 
-Ruby and SASS+Compass have to be installed. 
+#### Prerequisites, must be installed:
 
-##### Installation: Easy way
+- Git (for installation of bundle)
+- Ruby (for SASS + Compass)
+- SASS (for Compass)
+- Compass (errrr, that's what you're here for isn't it?)
+
+#### Install from CMD Prompt (WIN) or Terminal (Linux/Mac)
 
 1. Open terminal / git bash and browse to the Sublime Text Packages Folder (OSX: cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages || WIN: C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages)
 
 2. git clone git://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System.git Compass
 
-##### Manually
+---
 
-1. Download Package and unzip
+## Usage
 
-2. Go to menu bar: "Sublime Text 2 > Preferences > Browse Packages..."
-   - Alternate method, on OS X, in Terminal:
-   - $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
-
-3. Once that folder is open, close Sublime Text 2
-
-4. Rename folder to Compass and move it in the package folder
-
-5. Restart Sublime Text 2
-
-
-### Usage
-
-##### Snippets
+#### Snippets
 
 1. Easy: start typing the name of the Compass lib you are trying to access mixins for. (ex. background, border, etc)
 
@@ -49,7 +43,7 @@ Some terminology:
 
 ---
 
-##### Build System
+#### Build System
 
 Create a project and place the Sublime Text Project file in your project's folder root.
 Example:
@@ -64,16 +58,17 @@ Big thanks to @nachtmeister for starting this script for Windows: https://github
 
 ---
 
-#### TO-DO:
+### TO-DO:
 
-##### Snippets 
+##### Snippets for: 
 + Layout
 + Reset
 + Typography
 + Utilities
 
-
 ##### Build System
 + Look into fix for RVM not playing nice with ST2. This error is not specific to this build system. It is specific to environments managing gems via rvm.
+
+---
 
 This package is licensed MIT.
