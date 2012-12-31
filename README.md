@@ -21,9 +21,14 @@ Also, adds a Build System for Compass Watch when opening SASS Files. (Sublime-Te
 
 #### Install from CMD Prompt (WIN) or Terminal (Linux/Mac)
 
-1. Open terminal / git bash and browse to the Sublime Text Packages Folder (OSX: cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages || WIN: C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages)
+1. Open terminal and browse to the Sublime Text Packages Folder 
+(OSX: cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages || WIN: C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages)
 
-2. git clone git://github.com/WhatWeDo/Sublime-Text-2-Compass-Build-System.git Compass
+2. git clone git@github.com:CristinaSolana/Compass-ST2-Bundle.git Compass
+
+3. cd Compass
+
+4. git submodule update --init (A must - to use Build System)
 
 ---
 
