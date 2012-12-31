@@ -1,11 +1,11 @@
 <snippet>
   <content>
     <![CDATA[
-@include border-radius(${1:unitless}px);
+@include border-left-radius(${1:unitless}px);
 $0
 ]]>
   </content>
   <tabTrigger>border</tabTrigger>
   <scope>source.sass</scope>
-  <description>border-radius</description>
+  <description>border-left-radius</description>
 </snippet>
