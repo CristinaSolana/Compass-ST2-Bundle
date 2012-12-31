@@ -5,7 +5,7 @@
 $0
 ]]>
   </content>
-  <tabTrigger>word-break</tabTrigger>
+  <tabTrigger>hyphen</tabTrigger>
   <scope>source.sass</scope>
   <description>word-break</description>
 </snippet>

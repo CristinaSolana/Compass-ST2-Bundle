@@ -1,7 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include column-width(${1:width});
+@include column-width(${1:unit});
 $0
 ]]>
   </content>

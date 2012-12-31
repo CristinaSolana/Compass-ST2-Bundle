@@ -1,7 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include column-rule(${1:width} ${2:style} ${3:color});
+@include column-rule(${1:width:unit} ${2:style:solid||dashed||dotted} ${3:color});
 $0
 ]]>
   </content>

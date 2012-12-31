@@ -1,0 +1,105 @@
+@include background-size(auto||contain||cover||unit); // multiple: comma-delimited
+@include background-origin(padding-box||border-box||content-box);
+@include background-clip(padding-box||border-box||text);
+
+@include background-size(auto||contain||cover||unit); // multiple: comma-delimited
+@include background-origin(padding-box||border-box||content-box);
+@include background-clip(padding-box||border-box||text);
+@include border-bottom-left-radius(unitlesspx);
+@include border-bottom-radius(unitlesspx);
+@include border-bottom-right-radius(unitlesspx);
+@include border-corner-radius(top||bottom,left||right,unitlesspx);
+@include border-left-radius(unitlesspx);
+@include border-radius(unitlesspx);
+@include border-right-radius(unitlesspx);
+@include border-top-left-radius(unitlesspx);
+@include border-top-radius(unitlesspx);
+@include border-top-right-radius(unitlesspx);
+
+@include box-shadow(unitlesspx unitlesspx unitlesspx color); // multiple: comma-delimited
+@include single-box-shadow(color, h-offset:unit, v-offset:unit, blur:unit, spread:true||false, inset:true||false);
+
+@include box-align(start||end||center||baseline||stretch);
+@include box-direction(normal||reverse||inherit);
+@include box-flex-group(unitless);
+@include box-flex(unitless);
+@include box-lines(single||multiple);
+@include box-ordinal-group(unitless);
+@include box-orient(horizontal||vertical||inline-axis||block-axis||inherit);
+@include box-pack(start||end||center||justify);
+@include display-box;
+@include box-sizing(border-box||content-box);
+
+@include column-break-after(auto||always||avoid||left||right||page||column||avoid-page||avoid-column);
+@include column-break-before(auto||always||avoid||left||right||page||column||avoid-page||avoid-column);
+@include column-break-inside(auto||avoid||avoid-page||avoid-column);
+@include column-break(type:before||after||inside, value:auto||always||avoid||left||right||page||column||avoid-page||avoid-column); // for type => inside, only legal values are: auto||avoid||avoid-page||avoid-column
+@include column-count(count);
+@include column-gap(width);
+@include column-rule-color(color);
+@include column-rule-style(solid||dashed||dotted);
+@include column-rule-width(width);
+@include column-rule(width style color);
+@include column-width(width);
+@include columns(width count);
+
+@include flow-from(target);
+@include flow-into(target);
+
+@include hyphens(auto||manual||none);
+@include word-break(normal||keep-all||break-all);
+
+@include background-image(url(image)); // multiple: comma-delimited
+@include background-with-css2-fallback(url()||gradient-declaration); // multiple: comma-delimited
+@include background(url()||gradient-declaration); // multiple: comma-delimited
+@include border-image(value);
+@include content("value");
+@include filter-gradient(start-color, end-color, vertical|horizontal);
+@include list-style-image(image);
+@include list-style(value);
+
+@include opacity(unitless); // Takes a number between 0 and 1 as the argument, e.g. 0.5 for 50% opacity
+@include opaque;
+@include transparent;
+
+text-shadow(shadow); // multiple: comma-delimited
+single-text-shadow(h-offset:unit, v-offset:unit, blur:unit, spread:unit, color);
+
+@include translateZ(unit, perspective:true||false);
+@include translateY(unit, perspective:true||false, 3D-only:true||false);
+@include translateX(unit, perspective:true||false, 3D-only:true||false);
+@include translate3d(x:unit, y:unit, z:unit, perspective:true||false);
+@include translate(x:unit, y:unit, z:unit, 3D-only:true||false);
+@include transform3d(transform);
+@include transform2d(transform);
+@include apply-origin(x:unit|left|top|right|bottom|center, y:unit|left|top|right|bottom|center, z:unit|left|top|right|bottom|center, 3D-only:true||false);
+@include backface-visibility(visible||hidden);
+@include create-transform(perspective:true||false, scale-x:unitless, scale-y:unitless, scale-z:unitless, rotate-x:unitlessdeg, rotate-y:unitlessdeg, rotate-z:unitlessdeg, rotate3d:unitlessdeg, trans-x:unit, trans-y:unit, trans-z:unit, skew-x:unitlessdeg, skew-y:unitlessdeg, origin-x:unit, origin-y:unit, origin-z:unit, 3D-only:true||false); 
+@include perspective-origin(x:unit y:unit);
+@include perspective(unitless);
+@include rotate(unitlessdeg, perspective:true||false, 3D-only:true||false);
+@include rotate3d(vector-x:unitless, vector-y:unitless, vector-z:unitless, angle:unitlessdeg, perspective:true||false);
+@include rotateX(unitlessdeg, perspective:true||false);
+@include rotateY(unitlessdeg, perspective:true||false);
+@include rotateZ(unitlessdeg, perspective:true||false, 3D-only:true||false);
+@include scale(x:unitless, y:unitless, z:unitless, 3D-only:true||false);
+@include scale3d(x:unitless, y:unitless, z:unitless, perspective:true||false);
+@include scaleX(unitless, perspective:true||false, 3D-only:true||false);
+@include scaleY(unitless, perspective:true||false, 3D-only:true||false);
+@include transform(transforms, 3D-only:true||false);
+@include transform-style(flat|preserve-3d);
+@include transform-origin(x:unit|left|top|right|bottom|center, y:unit|left|top|right|bottom|center, z:unit|left|top|right|bottom|center, 3D-only);
+@include skewY(unitlessdeg, 3D-only:true||false);
+@include skewX(unitlessdeg, 3D-only:true||false);
+@include skew(x:unitlessdeg, y:unitlessdeg, 3D-only:true||false);
+@include simple-transform(scale:unitless, rotate:unitlessdeg, trans-x:unit, trans-y:unit, skew-x:unitlessdeg, skew-y:unitlessdeg, origin-x:unit); 
+@include scaleZ(unitless, perspective:true||false);
+
+@include single-transition(property, duration-in-seconds, ease||linear||ease-in||ease-out||ease-in-out||cubic-bezier(x1, y1, x2, y2), delay-in-seconds);
+@include transition-delay(delay-in-seconds); // multiple: comma-delimited
+@include transition-property(property); // multiple: comma-delimited
+@include transition-time-function(ease||linear||ease-in||ease-out||ease-in-out||cubic-bezier(x1, y1, x2, y2)); // multiple: comma-delimited
+@include transition-duration(duration-in-seconds); // multiple: comma-delimited
+@include transition(transition); // multiple: comma-delimited
+
+

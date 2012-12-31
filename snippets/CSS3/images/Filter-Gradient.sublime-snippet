@@ -1,7 +1,7 @@
 <snippet>
   <content>
     <![CDATA[
-@include filter-gradient(${1:start-color}, ${2:end-color}, ${3:vertical|horizontal});
+@include filter-gradient(${1:start-color}, ${2:end-color}, ${3:vertical||horizontal});
 $0
 ]]>
   </content>
