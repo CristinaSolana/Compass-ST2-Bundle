@@ -5,6 +5,6 @@ single-text-shadow(${1:h-offset:unit}, ${2:v-offset:unit}, ${3:blur:unit}, ${4:s
 ]]>
   </content>
   <tabTrigger>text-shadow</tabTrigger>
-  <scope>source.sass</scope>
+  <scope>source.sass, source.scss</scope>
   <description>single-text-shadow</description>
 </snippet>

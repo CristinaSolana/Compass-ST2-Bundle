@@ -5,6 +5,6 @@
 ]]>
   </content>
   <tabTrigger>images</tabTrigger>
-  <scope>source.sass</scope>
+  <scope>source.sass, source.scss</scope>
   <description>border-image</description>
 </snippet>
