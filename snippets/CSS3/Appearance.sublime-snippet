@@ -5,6 +5,6 @@
 ]]>
   </content>
   <tabTrigger>appearance</tabTrigger>
-  <scope>source.sass</scope>
+  <scope>source.sass, source.scss</scope>
   <description>appearance</description>
 </snippet>

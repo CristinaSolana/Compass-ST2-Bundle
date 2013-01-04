@@ -6,6 +6,6 @@ $0
 ]]>
   </content>
   <tabTrigger>transition</tabTrigger>
-  <scope>source.sass</scope>
+  <scope>source.sass, source.scss</scope>
   <description>transition</description>
 </snippet>
