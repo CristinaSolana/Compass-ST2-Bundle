@@ -1,0 +1,74 @@
+{ "name": "SCSS",
+  "scopeName": "source.scss",
+  "fileTypes": ["scss", "sass"],
+  "patterns": [
+    { "match": "\\s*((@)(import|mixin|include|charset|import|media|page|font-face|namespace)\\b)\\s*",
+      "name": "keyword.control.at-rule"
+    },
+    { "match": "\\.[a-zA-Z0-9_-]+",
+      "name": "entity.other.attribute-name.class"
+    },
+    { "match": "(#)([0-9a-fA-F]{3}|[0-9a-fA-F]{6})\\b",
+      "name": "constant.other.rgb-value.sass"
+    },
+    { "match": "#[a-zA-Z0-9_-]+",
+      "name": "entity.other.attribute-name.id"
+    },
+    { "match": "[!\\$][a-zA-Z0-9_-]+",
+      "name": "variable.parameter.sass"
+    },
+    { "match": "\\+[-\\w]+",
+      "name": "entity.other.attribute-name.tag.pseudo-class"
+    },
+    { "match": "(-|\\+)?\\s*[0-9]+(\\.[0-9]+)?",
+      "name": "constant.numeric"
+    },
+    { "match": "(left|right|true|false|top|bottom)(?!:)",
+      "name": "constant.string"
+    },
+    { "match": "&amp;",
+      "name": "keyword.control.untitled"
+    },
+    { "match": "\\b(background-clip|background-origin|background-size|border-bottom-left-radius|border-bottom-radius|border-bottom-right-radius|border-corner-radius|border-left-radius|border-radius|border-right-radius|border-top-left-radius|border-top-radius|border-top-right-radius|box-shadow|single-box-shadow|box-align|box-direction|box-flex-group|box-flex|box-lines|box-ordinal-group|box-orient|box-pack|display-box|box-sizing|column-break-after|column-break-before|column-break-inside|column-break|column-count|column-gap|column-rule-color|column-rule-style|column-rule|column-width|column-rule-width|flow-from|flow-into|width|hyphens|word-break|background-image|background-with-css2-fallback|background|border-image|content|filter-gradient|list-style-image|list-style|opacity|opaque|transparent|text-shadow|single-text-shadow|translateZ|translateY|translateX|translate3d|translate|transform3d|transform2d|apply-origin|backface-visibility|create-transform|perspective-origin|perspective|rotate|rotate3d|rotateX|rotateY|rotateZ|scale|scale3d|scaleX|scaleY|scaleZ|scale|transform|transform-origin|skewX|skewY|skewZ|skew|simple-transform|single-transition|transition-delay|transition-property|transition-time-function|transition-duration|transition)\\b",
+      "name": "support.type.property-name"
+    },
+    { "match": "\\b(auto|contain|cover|unit|padding-box|border-box|content-box|text|top|bottom|right|left|color|start|end|center|baseline|stretch|normal|reverse|single|multiple|horizontal|vertical|inline-axis|block-axis|inherit|justify|always|avoid|page|column|avoid-page|avoid-column|after|inside|solid|dashed|dotted|after|inside|manual|none|keep-all|break-all|true|false|visible|hidden|ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier)\\b",
+      "name": "support.type.property-value"
+    },
+    { "match": "\\b(a|abbr|acronym|address|area|article|aside|audio|b|base|big|blockquote|body|br|button|canvas|caption|cite|code|col|colgroup|command|datalist|dd|del|details|dfn|div|dl|dt|em|embed|fieldset|figcaption|figure|footer|form|frame|frameset|(h[1-6])|head|header|hgroup|hr|html|i|iframe|img|input|ins|kbd|keygen|label|legend|li|link|map|mark|meta|meter|nav|noframes|noscript|object|ol|optgroup|option|output|p|param|pre|progress|q|rp|rt|ruby|samp|script|section|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|time|title|tr|tt|ul|var|video)\\b",
+      "name": "keyword.control.untitled"
+    },
+    { "match": ":(before|after|first-child|last-child|first-line|first-letter|link|focus|lang|hover|active|target|visited)",
+      "name": "entity.other.attribute-name.tag.pseudo-class"
+    },
+    { "match": "^[0-9](px|pt|cm|mm|in|em|ex|pc|deg)\\b|%",
+      "name": "constant.other.unit"
+    },
+    { "match": "(\\b(?i:arial|century|courier|garamond|georgia|helvetica|impact|lucida|symbol|system|tahoma|times|trebuchet|verdana|sans-serif|serif|monospace)\\b)",
+      "name": "support.constant.font-name"
+    },
+    { "name": "string.quoted.double",
+       "begin": "\"",
+       "patterns": [
+           { "include": "$self" },
+           {  "name": "constant.character.escaped",
+              "match": "\\\\."
+           }
+       ],
+       "end": "\""
+    },
+    { "name": "comment.block",
+      "begin": "/\\*",
+      "end": "\\*/|$"
+    },
+    { "name": "comment.line.double-slash",
+      "begin": "//",
+      "end": "$\\n?"
+    },
+    { "name": "variable.parameter.url",
+      "begin": "url",
+      "end": "\\)?"
+    }
+  ],
+  "uuid": "a47ce450-6f4f-470a-b087-bf3818f06596"
+}
