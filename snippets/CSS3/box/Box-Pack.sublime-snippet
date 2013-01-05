@@ -5,6 +5,6 @@
 ]]>
   </content>
   <tabTrigger>box</tabTrigger>
-  <scope>source.sass</scope>
+  <scope>source.sass, source.scss</scope>
   <description>box-pack</description>
 </snippet>
