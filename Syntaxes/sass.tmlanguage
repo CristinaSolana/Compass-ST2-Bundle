@@ -27,7 +27,7 @@
 			<key>match</key>
 			<string>(#)([0-9a-fA-F]{3}|[0-9a-fA-F]{6})\b</string>
 			<key>name</key>
-			<string>constant.other.rgb-value.sass</string>
+			<string>constant.other.rgb-value</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -39,7 +39,7 @@
 			<key>match</key>
 			<string>[!\$][a-zA-Z0-9_-]+</string>
 			<key>name</key>
-			<string>variable.parameter.sass</string>
+			<string>variable.parameter</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -55,33 +55,39 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(left|right|true|false|top|bottom)(?!:)</string>
-			<key>name</key>
-			<string>constant.string</string>
-		</dict>
-		<dict>
-			<key>match</key>
 			<string>&amp;amp;</string>
 			<key>name</key>
 			<string>keyword.control.untitled</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(background-clip|background-origin|background-size|border-bottom-left-radius|border-bottom-radius|border-bottom-right-radius|border-corner-radius|border-left-radius|border-radius|border-right-radius|border-top-left-radius|border-top-radius|border-top-right-radius|box-shadow|single-box-shadow|box-align|box-direction|box-flex-group|box-flex|box-lines|box-ordinal-group|box-orient|box-pack|display-box|box-sizing|column-break-after|column-break-before|column-break-inside|column-break|column-count|column-gap|column-rule-color|column-rule-style|column-rule|column-width|column-rule-width|flow-from|flow-into|width|hyphens|word-break|background-image|background-with-css2-fallback|background|border-image|content|filter-gradient|list-style-image|list-style|opacity|opaque|transparent|text-shadow|single-text-shadow|translateZ|translateY|translateX|translate3d|translate|transform3d|transform2d|apply-origin|backface-visibility|create-transform|perspective-origin|perspective|rotate|rotate3d|rotateX|rotateY|rotateZ|scale|scale3d|scaleX|scaleY|scaleZ|scale|transform|transform-origin|skewX|skewY|skewZ|skew|simple-transform|single-transition|transition-delay|transition-property|transition-time-function|transition-duration|transition)\b</string>
+			<string>(content|left|right|true|false|top|bottom)\s*(?=[:])</string>
 			<key>name</key>
 			<string>support.type.property-name</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(auto|contain|cover|unit|padding-box|border-box|content-box|text|top|bottom|right|left|color|start|end|center|baseline|stretch|normal|reverse|single|multiple|horizontal|vertical|inline-axis|block-axis|inherit|justify|always|avoid|page|column|avoid-page|avoid-column|after|inside|solid|dashed|dotted|after|inside|manual|none|keep-all|break-all|true|false|visible|hidden|ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier)\b</string>
+			<string>\b(angle|inset|h-offset|v-offset|blur|spread|perspective|origin-x|origin-y|origin-z|rotate-x|rotate-y|rotate-z|scale-x|scale-y|scale-z|skew-x|skew-y|skew-z|trans-x|trans-y|trans-z|vector-x|vector-y|vector-z|3D-only|x|y|z)\s*(?=[:])</string>
 			<key>name</key>
-			<string>support.type.property-value</string>
+			<string>support.type.property-name.nested-property-name</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(background-clip|background-origin|background-size|border-bottom-left-radius|border-bottom-radius|border-bottom-right-radius|border-corner-radius|border-left-radius|border-radius|border-right-radius|border-top-left-radius|border-top-radius|border-top-right-radius|box-shadow|single-box-shadow|box-align|box-direction|box-flex-group|box-flex|box-lines|box-ordinal-group|box-orient|box-pack|display-box|box-sizing|column-break-after|column-break-before|column-break-inside|column-break|column-count|column-gap|column-rule-color|column-rule-style|column-rule|column-width|column-rule-width|flow-from|flow-into|width|hyphens|word-break|background-image|background-with-css2-fallback|background|border-image|filter-gradient|list-style-image|list-style|opacity|opaque|transparent|text-shadow|single-text-shadow|translateZ|translateY|translateX|translate3d|translate|transform3d|transform2d|apply-origin|backface-visibility|create-transform|perspective-origin|rotate|rotate3d|rotateX|rotateY|rotateZ|scale|scale3d|scaleX|scaleY|scaleZ|scale|transform-origin|transform|skewX|skewY|skewZ|skew|simple-transform|single-transition|transition-delay|transition-property|transition-time-function|transition-duration|transition|perspective)\b</string>
+			<key>name</key>
+			<string>support.type.property-name</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(auto|contain|cover|padding-box|border-box|content-box|text|top|bottom|right|left|color|start|end|center|baseline|stretch|normal|reverse|single|multiple|horizontal|vertical|inline-axis|block-axis|inherit|justify|always|avoid|page|column|avoid-page|avoid-column|after|inside|solid|dashed|dotted|after|inside|manual|none|keep-all|break-all|true|false|visible|hidden|linear|ease-in-out|ease-in|ease-out|ease|cubic-bezier|flat|preserve-3d|duration-in-seconds|delay-in-seconds|property|unitless|unit|image|value|target|count|transforms|shadow|gradient-declaration)</string>
+			<key>name</key>
+			<string>variable.parameter</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(a|abbr|acronym|address|area|article|aside|audio|b|base|big|blockquote|body|br|button|canvas|caption|cite|code|col|colgroup|command|datalist|dd|del|details|dfn|div|dl|dt|em|embed|fieldset|figcaption|figure|footer|form|frame|frameset|(h[1-6])|head|header|hgroup|hr|html|i|iframe|img|input|ins|kbd|keygen|label|legend|li|link|map|mark|meta|meter|nav|noframes|noscript|object|ol|optgroup|option|output|p|param|pre|progress|q|rp|rt|ruby|samp|script|section|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|time|title|tr|tt|ul|var|video)\b</string>
 			<key>name</key>
-			<string>keyword.control.untitled</string>
+			<string>entity.name.tag</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -91,7 +97,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^[0-9](px|pt|cm|mm|in|em|ex|pc|deg)\b|%</string>
+			<string>(px|pt|em|ex|pc|deg)\b|%</string>
 			<key>name</key>
 			<string>constant.other.unit</string>
 		</dict>
