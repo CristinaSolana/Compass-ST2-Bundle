@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include stretch-x(${1:left:unitless}, ${2:right:unitless});$0
+]]>
+  </content>
+  <tabTrigger>stretch-x</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>stretch-x</description>
+</snippet>

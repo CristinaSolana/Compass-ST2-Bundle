@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include stretch(${1:top:unitless}, ${2:right:unitless}, ${3:bottom:unitless}, ${4:left:unitless});$0
+]]>
+  </content>
+  <tabTrigger>stretch</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>stretch</description>
+</snippet>
