@@ -1,4 +1,4 @@
-{ "name": "SCSS",
+{ "name": "Compass + SCSS",
   "scopeName": "source.scss",
   "fileTypes": ["scss", "sass"],
   "patterns": [

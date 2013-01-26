@@ -8,7 +8,7 @@
 		<string>sass</string>
 	</array>
 	<key>name</key>
-	<string>SCSS</string>
+	<string>Compass + SCSS</string>
 	<key>patterns</key>
 	<array>
 		<dict>
