@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include grid-background(${1:columns:unitless}, ${2:col width:unit}, ${3:gutter width:unit}, ${4:baseline height:unit}, ${5:offset:unitless}, ${6:column:color}, ${7:gutter:color}, ${8:baseline:color}, ${9:force fluid:true||false});$0
+]]>
+  </content>
+  <tabTrigger>grid-background</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>grid-background</description>
+</snippet>
