@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include sticky-footer(${1:unitless}px${2:, selectors});$0
+]]>
+  </content>
+  <tabTrigger>sticky-footer</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>sticky-footer</description>
+</snippet>
