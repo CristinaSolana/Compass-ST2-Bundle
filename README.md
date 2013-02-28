@@ -4,7 +4,7 @@
 
 *Once finished, will include snippets for All Compass Core variables, mixins with tab indexing for parameters. Currently all of the CSS3 library is finished.
 
-Also, adds a Build System for Compass Watch when opening SASS Files. (Sublime-Text-2-SASS-Package or similar SASS Package needed. *Soon to be standalone*).
+Also, adds a Build System for Compass Watch when opening SASS Files.
 
 **This is still a work in progress. Thanks in advance for any input.**
 
