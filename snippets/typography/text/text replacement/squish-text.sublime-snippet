@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include squish-text;$0
+]]>
+  </content>
+  <tabTrigger>squish-text</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>squish-text</description>
+</snippet>

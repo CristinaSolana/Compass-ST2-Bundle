@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include horizontal-list-item(${1:padding}, ${1:direction});$0
+]]>
+  </content>
+  <tabTrigger>horizontal-list-item</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>horizontal-list-item</description>
+</snippet>

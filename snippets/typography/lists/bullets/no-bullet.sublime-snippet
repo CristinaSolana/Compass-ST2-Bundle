@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include no-bullet;$0
+]]>
+  </content>
+  <tabTrigger>no-bullet</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>no-bullet</description>
+</snippet>

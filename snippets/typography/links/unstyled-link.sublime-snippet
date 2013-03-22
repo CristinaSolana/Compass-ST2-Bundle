@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include unstyled-link;$0
+]]>
+  </content>
+  <tabTrigger>unstyled-link</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>unstyled-link</description>
+</snippet>

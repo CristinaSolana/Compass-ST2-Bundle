@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include adjust-font-size-to(${1:to-size}, ${2:lines}, ${3:from-size});$0
+]]>
+  </content>
+  <tabTrigger>adjust-font-size-to</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>adjust-font-size-to</description>
+</snippet>

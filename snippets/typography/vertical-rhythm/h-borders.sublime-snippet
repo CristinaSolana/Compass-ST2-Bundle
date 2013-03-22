@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include h-borders(${1:width}, ${2:lines}, ${3:font-size}, ${4:border-style});$0
+]]>
+  </content>
+  <tabTrigger>h-borders</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>h-borders</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include inline-block-list(${1:padding});$0
+]]>
+  </content>
+  <tabTrigger>inline-block-list</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>inline-block-list</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include comma-delimited-list;$0
+]]>
+  </content>
+  <tabTrigger>comma-delimited-list</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>comma-delimited-list</description>
+</snippet>

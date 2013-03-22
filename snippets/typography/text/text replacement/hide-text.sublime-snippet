@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include hide-text(${1:direction});$0
+]]>
+  </content>
+  <tabTrigger>hide-text</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>hide-text</description>
+</snippet>

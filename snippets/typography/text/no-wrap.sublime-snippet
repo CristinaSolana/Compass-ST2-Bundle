@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include nowrap;$0
+]]>
+  </content>
+  <tabTrigger>nowrap</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>nowrap</description>
+</snippet>

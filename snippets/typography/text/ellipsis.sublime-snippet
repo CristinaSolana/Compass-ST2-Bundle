@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include ellipsis;$0
+]]>
+  </content>
+  <tabTrigger>ellipsis</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>ellipsis</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include rythym(${1:leader}, ${2:padding-leader}, ${3:padding-trailer}, ${4:trailer}, ${5:font-size});$0
+]]>
+  </content>
+  <tabTrigger>rythym</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>rythym</description>
+</snippet>

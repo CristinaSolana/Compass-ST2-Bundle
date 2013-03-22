@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include replace-text(${1:img}, ${2:position-x}, ${3:position-y});$0
+]]>
+  </content>
+  <tabTrigger>replace-text</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>replace-text</description>
+</snippet>

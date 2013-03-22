@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include delimited-list(${1:separator});$0
+]]>
+  </content>
+  <tabTrigger>delimited-list</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>delimited-list</description>
+</snippet>

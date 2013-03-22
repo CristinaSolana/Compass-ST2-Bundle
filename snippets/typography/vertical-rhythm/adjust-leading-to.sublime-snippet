@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include adjust-leading-to(${1:lines}, ${2:font-size});$0
+]]>
+  </content>
+  <tabTrigger>adjust-leading-to</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>adjust-leading-to</description>
+</snippet>

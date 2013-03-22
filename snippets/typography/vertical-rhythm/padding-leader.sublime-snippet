@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include padding-leader(${1:lines}, ${2:font-size});$0
+]]>
+  </content>
+  <tabTrigger>padding-leader</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>padding-leader</description>
+</snippet>

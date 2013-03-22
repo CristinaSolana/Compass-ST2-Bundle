@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include establish-baseline(${1:font-size});$0
+]]>
+  </content>
+  <tabTrigger>establish-baseline</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>establish-baseline</description>
+</snippet>

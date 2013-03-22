@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include horizontal-list-container;$0
+]]>
+  </content>
+  <tabTrigger>horizontal-list-container</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>horizontal-list-container</description>
+</snippet>

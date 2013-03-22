@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include leader(${1:lines}, ${2:font-size}, ${3:property});$0
+]]>
+  </content>
+  <tabTrigger>leader</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>leader</description>
+</snippet>

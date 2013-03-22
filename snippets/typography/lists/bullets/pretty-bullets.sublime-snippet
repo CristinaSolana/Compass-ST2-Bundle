@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include pretty-bullets(${1:bullet-icon}, ${2:width}, ${3:height}, ${4:line-height}, ${5:padding});$0
+]]>
+  </content>
+  <tabTrigger>pretty-bullets</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>pretty-bullets</description>
+</snippet>

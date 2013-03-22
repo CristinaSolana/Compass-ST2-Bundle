@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include apply-side-rhythm-border(${1:side}, ${2:width}, ${3:lines}, ${4:font-size}, ${5:border-style});$0
+]]>
+  </content>
+  <tabTrigger>apply-side-rhythm-border</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>apply-side-rhythm-border</description>
+</snippet>

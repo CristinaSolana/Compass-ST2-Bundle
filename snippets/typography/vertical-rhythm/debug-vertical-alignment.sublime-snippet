@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include debug-vertical-alignment(${1:img});$0
+]]>
+  </content>
+  <tabTrigger>debug-vertical-alignment</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>debug-vertical-alignment</description>
+</snippet>

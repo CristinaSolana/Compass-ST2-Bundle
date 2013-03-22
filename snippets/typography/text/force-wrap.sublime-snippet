@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include force-wrap;$0
+]]>
+  </content>
+  <tabTrigger>force-wrap</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>force-wrap</description>
+</snippet>

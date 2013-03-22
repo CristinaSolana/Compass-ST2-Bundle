@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include link-colors(${1:normal}, ${2:hover}, ${3:active}, ${4:visited}, ${5:focus});$0
+]]>
+  </content>
+  <tabTrigger>link-colors</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>link-colors</description>
+</snippet>

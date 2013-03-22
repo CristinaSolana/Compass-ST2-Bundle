@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include hover-link;$0
+]]>
+  </content>
+  <tabTrigger>hover-link</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>hover-link</description>
+</snippet>

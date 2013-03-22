@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include replace-text-with-dimensions(${1:img}, ${2:position-x}, ${3:position-y}, ${3:inline:true||false});$0
+]]>
+  </content>
+  <tabTrigger>replace-text-with-dimensions</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>replace-text-with-dimensions</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content>
+    <![CDATA[
+@include padding-trailer(${1:lines}, ${2:font-size});$0
+]]>
+  </content>
+  <tabTrigger>padding-trailer</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>padding-trailer</description>
+</snippet>
