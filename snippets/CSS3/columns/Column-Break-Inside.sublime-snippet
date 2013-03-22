@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>columns</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>column-break-inside</description>
+  <description>Compass</description>
 </snippet>

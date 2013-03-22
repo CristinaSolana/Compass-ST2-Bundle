@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>comma-delimited-list</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>comma-delimited-list</description>
+  <description>Compass</description>
 </snippet>

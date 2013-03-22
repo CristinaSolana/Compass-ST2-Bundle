@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>establish-baseline</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>establish-baseline</description>
+  <description>Compass</description>
 </snippet>

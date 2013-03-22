@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>images</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>background-with-css2-fallback</description>
+  <description>Compass</description>
 </snippet>

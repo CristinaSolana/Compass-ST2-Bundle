@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>border</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>border-bottom-radius</description>
+  <description>Compass</description>
 </snippet>

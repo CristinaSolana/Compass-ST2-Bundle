@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>filter</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>filter</description>
+  <description>Compass</description>
 </snippet>

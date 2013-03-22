@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>text-shadow</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>single-text-shadow</description>
+  <description>Compass</description>
 </snippet>

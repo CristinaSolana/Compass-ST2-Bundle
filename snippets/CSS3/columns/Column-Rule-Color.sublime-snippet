@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>columns</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>column-rule-color</description>
+  <description>Compass</description>
 </snippet>

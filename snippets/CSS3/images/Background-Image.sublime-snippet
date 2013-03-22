@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>images</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>background-image</description>
+  <description>Compass</description>
 </snippet>

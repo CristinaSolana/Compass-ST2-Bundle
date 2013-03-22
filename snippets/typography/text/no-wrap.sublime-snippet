@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>nowrap</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>nowrap</description>
+  <description>Compass</description>
 </snippet>

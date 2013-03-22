@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>adjust-font-size-to</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>adjust-font-size-to</description>
+  <description>Compass</description>
 </snippet>

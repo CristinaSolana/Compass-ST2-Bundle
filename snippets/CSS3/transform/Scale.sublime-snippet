@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>transform</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>scale</description>
+  <description>Compass</description>
 </snippet>

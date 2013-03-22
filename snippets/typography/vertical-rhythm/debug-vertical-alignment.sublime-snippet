@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>debug-vertical-alignment</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>debug-vertical-alignment</description>
+  <description>Compass</description>
 </snippet>

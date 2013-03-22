@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>transform</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>perspective-origin</description>
+  <description>Compass</description>
 </snippet>

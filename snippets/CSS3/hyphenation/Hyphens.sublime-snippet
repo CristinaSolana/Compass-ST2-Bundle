@@ -6,5 +6,5 @@
   </content>
   <tabTrigger>hyphen</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>hyphens</description>
+  <description>Compass</description>
 </snippet>
