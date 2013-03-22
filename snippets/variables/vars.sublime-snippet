@@ -1,0 +1,307 @@
+<snippet>
+  <content>
+    <![CDATA[
+
+// Only uncomment and use variable if you want to override default value
+
+
+// CSS3
+
+////////////////////////////////////////
+// Background Clip
+// reference: http://compass-style.org/reference/compass/css3/background_clip/
+////////////////////////////////////////
+// default value: padding-box
+// $default-background-clip: border-box;
+
+////////////////////////////////////////
+// Background Origin
+// reference: http://compass-style.org/reference/compass/css3/background_origin/
+////////////////////////////////////////
+// default value: content-box
+// $default-background-origin: ${1:$padding-box||border-box};
+
+////////////////////////////////////////
+// Background Size
+// reference: http://compass-style.org/reference/compass/css3/background_size/
+////////////////////////////////////////
+// default value: 100% auto
+// $default-background-size: auto||contain||cover||unit;
+
+////////////////////////////////////////
+// Border Radius
+// http://compass-style.org/reference/compass/css3/border_radius/
+////////////////////////////////////////
+// default value: 5px
+// $default-border-radius: ${value};
+
+////////////////////////////////////////
+// Box
+// reference: http://compass-style.org/reference/compass/css3/box/
+////////////////////////////////////////
+// default value: horizontal
+// $default-box-orient: ${1:vertical||inline-axis||block-axis||inherit};
+
+// default value: stretch
+// $default-box-align: ${1:start||end||center||baseline};
+
+// default value: 0
+// $default-box-flex: ${1:<value>};
+
+// default value: 1
+// $default-box-flex-group: ${1:<value>};
+
+// default value: 1
+// $default-box-ordinal-group: ${1:<value>};
+
+// default value: normal
+// $default-box-direction: ${1:reverse||inherit};
+
+// default value: single
+// $default-box-lines: multiple;
+
+// default value: start
+// $default-box-pack: ${1:end||center||justify};
+
+////////////////////////////////////////
+// Box Shadow
+// reference: http://compass-style.org/reference/compass/css3/box_shadow/
+////////////////////////////////////////
+// $default: #333333
+// $default-box-shadow-color ${1:<value>};
+
+// default: 0px
+// $default-box-shadow-h-offset 0px;
+
+// default: 0px
+// $default-box-shadow-v-offset 0px;
+
+// default: 5px
+// $default-box-shadow-blur 5px;
+
+// default: false
+// $default-box-shadow-spread;
+
+// default: false
+// $default-box-shadow-inset: ${1:<value>};
+
+////////////////////////////////////////
+// Inline Block
+// reference: http://compass-style.org/reference/compass/css3/inline_block/
+////////////////////////////////////////
+// default: middle
+// $inline-block-alignment: ${1:none||false};
+
+////////////////////////////////////////
+// Text Shadow
+// reference: http://compass-style.org/reference/compass/css3/text-shadow/
+////////////////////////////////////////
+// default: #aaaaaa
+// $default-text-shadow-color #aaaaaa;
+
+// default: 0px
+// $default-text-shadow-h-offset 0px;
+
+// default: 0px
+// $default-text-shadow-v-offset 0px;
+
+// default: 1px
+// $default-text-shadow-blur 1px;
+
+// default: false
+// $default-text-shadow-spread false;
+
+////////////////////////////////////////
+// Transform
+// reference: http://compass-style.org/reference/compass/css3/transform/
+////////////////////////////////////////
+// default: 50%
+// $default-origin-x: ${1:<value>};
+
+// default: 50%
+// $default-origin-y: ${1:<value>};
+
+// default: 50%
+// $default-origin-z: ${1:<value>};
+
+// default: 1.25
+// $default-scale-x: ${1:<value>};
+
+// default: $default-scale-x
+// $default-scale-y: ${1:<value>};
+
+// default: $default-scale-x
+// $default-scale-z: ${1:<value>};
+
+// default: 45deg
+// $default-rotate: ${1:<value>};
+
+// default: 1
+// $default-vector-x: ${1:<value>};
+
+// default: 1
+// $default-vector-y: ${1:<value>};
+
+// default: 1
+// $default-vector-z: ${1:<value>};
+
+// default: 1em
+// $default-translate-x: ${1:<value>};
+
+// default: $default-translate-x
+// $default-translate-y: ${1:<value>};
+
+// default: $default-translate-x
+// $default-translate-z: ${1:<value>};
+
+// default: 5deg
+// $default-skew-x: ${1:<value>};
+
+// default: 5deg
+// $default-skew-y: ${1:<value>};
+
+////////////////////////////////////////
+// Transition
+// reference: http://compass-style.org/reference/compass/css3/transition/
+////////////////////////////////////////
+// default: all
+// $default-transition-property: ${1:<value>};
+
+// default: 1s
+// $default-transition-duration: ${1:<value>};
+
+// default: false
+// $default-transition-function: ${1:ease||linear||ease-in||ease-out||ease-in-out||step-start||step-end||steps(<integer>[, [ start||end ] ]?)||cubic-bezier(<value>, <value>, <value>, <value>)};
+
+// default: false
+// $default-transition-delay false;
+
+
+// Layout
+
+////////////////////////////////////////
+// Grid Backgrounds
+// reference: http://compass-style.org/reference/compass/layout/grid_background/
+////////////////////////////////////////
+// default: rgba(100, 100, 225, 0.25)
+// $grid-background-column-color rgba(100, 100, 225, 0.25);
+ 
+// default: rgba(0, 0, 0, 0)
+// $grid-background-gutter-color: ${1:<value>};
+
+// default: 24
+// $grid-background-total-columns: ${1:<value>};
+
+// default: 30px
+// $grid-background-column-width: ${1:<value>};
+
+// default: 10px
+// $grid-background-gutter-width: ${1:<value>};
+
+// default: 0px
+// $grid-background-offset: ${1:<value>};
+
+// default: rgba(0, 0, 0, 0.5)
+// $grid-background-baseline-color: ${1:<value>};
+
+// default: 1.5em
+// $grid-background-baseline-height: ${1:<value>};
+
+// default: true
+// $show-column-grid-backgrounds: false;
+
+// default: true
+// $show-baseline-grid-backgrounds: false;
+
+// default: true
+// $show-grid-backgrounds: false;
+
+// default: false
+// $grid-background-force-fluid: true;
+
+
+// Typography
+
+////////////////////////////////////////
+// Text Replacement
+// reference: http://compass-style.org/reference/compass/typography/text/replacement/
+////////////////////////////////////////
+// default: left
+// $hide-text-direction: right;
+
+////////////////////////////////////////
+// Vertical Rythym
+// reference: http://compass-style.org/reference/compass/typography/vertical_rhythm/
+////////////////////////////////////////
+// default: 16px
+// $base-font-size: ${1:<value>};
+
+// default: 24px
+// $base-line-height: ${1:<value>};
+
+// default: 24px
+// $base-line-height: ${1:<value>};
+
+// default: solid
+// $default-rhythm-border-style: ${1:dashed||dotted};
+
+// default: true
+// $relative-font-sizing: false;
+
+// default: false
+// $round-to-nearest-half-line: true;
+
+// default: 2px
+// $min-line-padding: ${1:<value>};
+
+
+// Utilities
+
+////////////////////////////////////////
+// Color Contrast
+// reference: http://compass-style.org/reference/compass/utilities/color/contrast/
+////////////////////////////////////////
+// default: black
+// $contrasted-dark-default black;
+
+// default: white
+// $contrasted-light-default white;
+
+// default: 30%
+// $contrasted-lightness-threshold 30%;
+
+////////////////////////////////////////
+// Hacks
+// reference: http://compass-style.org/reference/compass/utilities/general/hacks/
+////////////////////////////////////////
+// default: zoom
+// $default-has-layout-approach: block;
+
+////////////////////////////////////////
+// Sprites
+// reference: http://compass-style.org/reference/compass/utilities/sprites/
+////////////////////////////////////////
+// default: hover, target, active - choose any or all (comma-del)
+// $sprite-selectors: ${1:<value>};
+
+// default: false
+// $disable-magic-sprite-selectors: true;
+
+// default: 32px
+// $sprite-default-size: ${1:<value>};
+
+// default: 0px
+// $sprite-default-margin: ${1:<value>};
+
+// default: $sprite-default-size
+// $sprite-image-default-width: ${1:<value>};
+
+// default: $sprite-default-size
+// $sprite-image-default-height: ${1:<value>};
+
+]]>
+  </content>
+  <tabTrigger>var</tabTrigger>
+  <scope>source.sass, source.scss</scope>
+  <description>Compass Var List</description>
+</snippet>
