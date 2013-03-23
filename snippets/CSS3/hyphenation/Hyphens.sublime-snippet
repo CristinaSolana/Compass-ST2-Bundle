@@ -4,7 +4,7 @@
 @include hyphens(${1:auto||manual||none});$0
 ]]>
   </content>
-  <tabTrigger>hyphen</tabTrigger>
+  <tabTrigger>hyphens</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

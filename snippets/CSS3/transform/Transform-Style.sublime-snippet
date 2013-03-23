@@ -4,7 +4,7 @@
 @include transform-style(${1:flat|preserve-3d});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform-style</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

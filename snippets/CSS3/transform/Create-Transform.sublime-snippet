@@ -4,7 +4,7 @@
 @include create-transform(${1:perspective:true||false}, ${2:scale-x:unitless}, ${3:scale-y:unitless}, ${4:scale-z:unitless}, ${5:rotate-x:unitless}deg, ${6:rotate-y:unitless}deg, ${7:rotate-z:unitless}deg, ${8:rotate3d:unitless}deg, ${9:trans-x:unit}, ${10:trans-y:unit}, ${11:trans-z:unit}, ${12:skew-x:unitless}deg, ${13:skew-y:unitless}deg, ${14:origin-x:unit}, ${15:origin-y:unit}, ${16:origin-z:unit}, ${17:3D-only:true||false});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform (create-transform)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

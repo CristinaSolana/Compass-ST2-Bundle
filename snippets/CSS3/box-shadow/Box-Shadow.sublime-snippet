@@ -4,7 +4,7 @@
 @include box-shadow(${1:unitless}px ${2:unitless}px ${3:unitless}px ${4:color}); ${5:// multiple: comma-delimited}$0
 ]]>
   </content>
-  <tabTrigger>box</tabTrigger>
+  <tabTrigger>box-shadow</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

@@ -4,7 +4,7 @@
 @include transform2d(${1:transform});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform2d</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

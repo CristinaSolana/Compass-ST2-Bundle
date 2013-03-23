@@ -4,7 +4,7 @@
 @include scaleZ(${1:unitless}, ${2:perspective:true||false});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform (scaleZ)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

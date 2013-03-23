@@ -4,7 +4,7 @@
 @include translate3d(${1:x:unit}, ${2:y:unit}, ${3:z:unit}, ${4:perspective:true||false});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform (translate 3d)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

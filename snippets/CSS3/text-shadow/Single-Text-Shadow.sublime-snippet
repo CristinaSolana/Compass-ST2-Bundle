@@ -4,7 +4,7 @@
 @include single-text-shadow(${1:h-offset:unit}, ${2:v-offset:unit}, ${3:blur:unit}, ${4:spread:unit}, ${5:color});$0
 ]]>
   </content>
-  <tabTrigger>text-shadow</tabTrigger>
+  <tabTrigger>text-shadow (single)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

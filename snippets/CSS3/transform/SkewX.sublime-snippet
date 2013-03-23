@@ -4,7 +4,7 @@
 @include skewX(${1:unitless}deg, ${3:3D-only:true||false});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform (skewX)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

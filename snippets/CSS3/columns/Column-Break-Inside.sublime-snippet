@@ -4,7 +4,7 @@
 @include column-break-inside(${1:auto||avoid||avoid-page||avoid-column});$0
 ]]>
   </content>
-  <tabTrigger>columns</tabTrigger>
+  <tabTrigger>columns-break-inside</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

@@ -4,7 +4,7 @@
 @include single-box-shadow(${1:color}, ${2:h-offset:unit}, ${3:v-offset:unit}, ${4:blur:unit}, ${5:spread:true||false}, ${6:inset:true||false});$0
 ]]>
   </content>
-  <tabTrigger>box</tabTrigger>
+  <tabTrigger>box-shadow (single)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

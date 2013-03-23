@@ -4,7 +4,7 @@
 @include column-rule-style(${1:solid||dashed||dotted});$0
 ]]>
   </content>
-  <tabTrigger>columns</tabTrigger>
+  <tabTrigger>column-rule-style</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

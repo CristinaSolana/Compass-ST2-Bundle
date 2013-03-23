@@ -4,7 +4,7 @@
 @include flow-into(${1:target});$0
 ]]>
   </content>
-  <tabTrigger>cssregions</tabTrigger>
+  <tabTrigger>cssregions (flow-into)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

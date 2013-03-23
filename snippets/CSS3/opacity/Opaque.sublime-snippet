@@ -4,7 +4,7 @@
 @include opaque;$0
 ]]>
   </content>
-  <tabTrigger>opacity</tabTrigger>
+  <tabTrigger>opacity (opaque)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

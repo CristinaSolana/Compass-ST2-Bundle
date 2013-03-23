@@ -4,7 +4,7 @@
 @include column-rule-color(${1:color});$0
 ]]>
   </content>
-  <tabTrigger>columns</tabTrigger>
+  <tabTrigger>column-rule-color</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

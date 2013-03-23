@@ -4,7 +4,7 @@
 @include box-pack(${1:start||end||center||justify});$0
 ]]>
   </content>
-  <tabTrigger>box</tabTrigger>
+  <tabTrigger>box-pack</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>Compass</description>
+  <description>Compass, @include display-box</description>
 </snippet>

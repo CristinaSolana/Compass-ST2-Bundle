@@ -4,7 +4,7 @@
 @include transition-property(${1:property}); ${2:// multiple: comma-delimited}$0
 ]]>
   </content>
-  <tabTrigger>transition</tabTrigger>
+  <tabTrigger>transition-property</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

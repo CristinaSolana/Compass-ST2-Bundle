@@ -4,7 +4,7 @@
 @include box-flex(${1:unitless});$0
 ]]>
   </content>
-  <tabTrigger>box</tabTrigger>
+  <tabTrigger>box-flex</tabTrigger>
   <scope>source.sass, source.scss</scope>
-  <description>Compass</description>
+  <description>Compass, @include display-box</description>
 </snippet>

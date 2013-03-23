@@ -4,7 +4,7 @@
 @include column-width(${1:unit});$0
 ]]>
   </content>
-  <tabTrigger>columns</tabTrigger>
+  <tabTrigger>column-width</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

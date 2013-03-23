@@ -4,7 +4,7 @@
 @include simple-transform(${1:scale:unitless}, ${2:rotate:unitless}deg, ${3:trans-x:unit}, ${4:trans-y:unit}, ${5:skew-x:unitless}deg, ${6:skew-y:unitless}deg, ${7:origin-x:unit});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform (simple-transform)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

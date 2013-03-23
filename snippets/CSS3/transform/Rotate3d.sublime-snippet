@@ -4,7 +4,7 @@
 @include rotate3d(${1:vector-x:unitless}, ${2:vector-y:unitless}, ${3:vector-z:unitless}, ${4:angle:unitless}deg, ${5:perspective:true||false});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform (rotate3d)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

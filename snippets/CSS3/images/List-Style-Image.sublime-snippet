@@ -4,7 +4,7 @@
 @include list-style-image(${1:image});$0
 ]]>
   </content>
-  <tabTrigger>images</tabTrigger>
+  <tabTrigger>images (list-style-image)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

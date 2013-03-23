@@ -4,7 +4,7 @@
 @include single-transition(${1:property}, ${2:duration-in-seconds}, ${3:ease||linear||ease-in||ease-out||ease-in-out||cubic-bezier(x1, y1, x2, y2)}, ${4:delay-in-seconds});$0
 ]]>
   </content>
-  <tabTrigger>transition</tabTrigger>
+  <tabTrigger>transition (single)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>

@@ -4,7 +4,7 @@
 @include translateZ(${1:unit}, ${2:perspective:true||false});$0
 ]]>
   </content>
-  <tabTrigger>transform</tabTrigger>
+  <tabTrigger>transform (translateZ)</tabTrigger>
   <scope>source.sass, source.scss</scope>
   <description>Compass</description>
 </snippet>
