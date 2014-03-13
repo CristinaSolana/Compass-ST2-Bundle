@@ -27,7 +27,7 @@ Sublime Text 2:
 Sublime Text 3:
 (OSX: cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages || WIN: C:\Users\<username>\AppData\Roaming\Sublime Text 2\3\Packages)
 
-2. git clone git@github.com:CristinaSolana/Compass-ST2-Bundle.git Compass
+2. git clone https://github.com/CristinaSolana/Compass-ST2-Bundle.git Compass
 
 3. cd Compass
 
